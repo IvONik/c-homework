@@ -7,7 +7,7 @@ void multipl(int N)
 {
     for (int i = 1; i <= N; i++)
     {
-        int cube = i * i * i;
+        double cube = Math.Pow(i,3);
         System.Console.WriteLine($"{i} в ^ 3 = {cube}");
     }
 }
