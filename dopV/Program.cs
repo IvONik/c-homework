@@ -2,15 +2,11 @@
 //Напишите функцию, которая проверяет, верно ли, что все числа в массиве чётные. 
 //Наличие хотя бы одного нечётного числа означает, что ответ — нет.
 
-//исправить ошибку оформления второо метода!!
-
 int[] array = new int[8];
 int length = array.Length;
 
 rdm(length);
 element(length);
-
-//System.Console.WriteLine()
 
 void rdm(int length)
 {
@@ -34,7 +30,7 @@ int count1 = 0;
 for (int i = 0; i < length; i++)
 {
     element[i] = array[i] % 2;
-    System.Console.Write(element[i]);
+    //System.Console.Write(element[i]);
 
         if (element[i] == 0)
         {
