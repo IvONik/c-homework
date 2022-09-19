@@ -25,9 +25,9 @@ int showEven(int size)
     {
         if (arrayDig[i]%2==0)
         {
-            count = count+1;
+            count++;
         }
     }
-    System.Console.Write(count);
+    System.Console.Write($"Четных чисел {count}");
     return count;
 }
