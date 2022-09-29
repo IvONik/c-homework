@@ -21,8 +21,7 @@ PrintMatrix(matrix2);
 
 if (columns1 != rows2)
 {
-    System.Console.WriteLine("число столбцов в первой матрице должно быть равно числу строк во второй");
-    //break;
+       throw new Exception("число столбцов в первой матрице должно быть равно числу строк во второй");
 }
 
 MultiplicationMatrix(matrix1, matrix2);
